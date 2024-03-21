@@ -1,0 +1,105 @@
+.home-container,
+.home-ac-container {
+    width: auto;
+}
+
+.home-container-text {
+    position: relative;
+    color: #0E4B74;
+    font-size: 35px;
+    top: 60px;
+    left: 60px;
+}
+
+.home-container-text p {
+    width: 300px;
+}
+
+.home-container-button {
+    position: sticky;
+    display: flex;
+    justify-content: right;
+    padding-right: 0px;
+    padding-top: 50px;
+}
+
+
+.home-text-rectangle {
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+
+.custom-arrow {
+    position: absolute;
+    font-size: 15px;
+    background-color: rgba(53, 140, 200, 0.4);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100%; /* Makes the button circular */
+    width: 50px; /* Adjust the width and height as needed */
+    height: 50px;
+    transition: all 0.3s ease;
+}
+
+.custom-arrow:hover {
+    background-color: rgba(53, 140, 200, 1); /* Add hover effect if desired */
+    transition: all 0.3s ease;
+}
+
+.custom-right-arrow {
+    left: 94%;
+}
+
+.custom-left-arrow {
+    left: 3%
+}
+
+
+.filter {
+    margin-top: 100px;
+}
+
+.searchbar {
+    margin-left: 40dvh;
+}
+
+.searchingbar {
+    font-size: 16px;
+    position: relative;
+    padding: 5px 10px;
+    border: solid 1px;
+    border-color: #0E4B74;
+    border-radius: 5px;
+    padding-right: 60dvh;
+}
+
+.courses-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-section {
+    position: relative;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    bottom: 250px;
+}
+
+.filter-section p {
+    font-size: 30px;
+}
+
+.courses-section {
+    padding-top: 100%;
+    width: 70%; /* Set the width of the courses section to 70% */
+    display: grid; /* Make the courses section a grid container */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Set up a grid layout with responsive columns */
+    gap: 0px; /* Add spacing between grid items */
+    /* background-color: aliceblue; */
+}
